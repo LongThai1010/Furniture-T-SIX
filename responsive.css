@@ -263,6 +263,7 @@
     .footer-top-info p,
     .footer-top-info h5 {
         font-size: 16px;
+        text-align: center;
     }
 
     .footer-top-input {
@@ -285,7 +286,6 @@
     .footer-bottom-link a {
         font-size: 14px;
     }
-
 
 
     .modal,
