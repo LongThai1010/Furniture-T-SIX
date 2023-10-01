@@ -89,6 +89,23 @@
         max-width: 100%;
     }
 
+    .footer-bottom {
+        flex-wrap: wrap;
+        padding: 20px 0;
+        gap: 10px;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+
+    .footer-bottom-link {
+        gap: 24px;
+
+    }
+
+    .input-email {
+        width: 500px;
+    }
+
     .modal {
         max-width: 500px;
         padding: 60px;
@@ -163,9 +180,9 @@
 
 
     .section-1 {
-        gap: 32px;
-        padding: 0px 40px;
-        margin-bottom: 40px;
+        gap: 24px;
+        padding: 0px 20px;
+        margin: 64px 0;
     }
 
     .section-1__brand {
@@ -261,8 +278,12 @@
     }
 
     .footer-bottom-link {
-        gap: 24px;
+        gap: 20px;
 
+    }
+
+    .footer-bottom-link a {
+        font-size: 14px;
     }
 
 
